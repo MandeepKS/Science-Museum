@@ -14,7 +14,7 @@ font-family: 'Istok Web', sans-serif;
 :root{
     --our-black : #000000;
     --our-red : #EC2020;
-    --our-grey : #F7F7F7;
+    --our-grey : #A2A2A2;
     --font-dark-grey:#BEB9AF;
     --background-grey: #EEEEEE;
     --font-about-grey:#9D9B9B;
@@ -97,7 +97,7 @@ nav{
     display: flex;
     justify-content: space-between;
     background-color: var(--our-red);
-    margin-bottom: 5px;
+    margin-bottom: 2px;
     
 	
 }
@@ -174,7 +174,7 @@ nav .nav-mobile{
 nav .nav-desktop {
     display: flex;
     padding-top: 30px;
-    padding-bottom: 50px;
+    padding-bottom: 40px;
     list-style-type: none;
 
 }
@@ -213,17 +213,7 @@ nav .footer-nav li,nav .social-media{
 
 /* End of footer navmenu */
 
-/* Rainy_home class is for just 'Home' menu only.
-   It changes the home menu color to yellow. */
 
-/* .rainy_home{
-    color: var(--our-yellow);
-}
-
-.rainy_home:hover{
-   color:var(--our-black);
-} */
-/* end of navbar */
 
 
 /* Main body starts with jumbortron */
@@ -242,7 +232,7 @@ nav .footer-nav li,nav .social-media{
     background-repeat: no-repeat;
     background-size: cover;
     max-width: 100%;
-    min-height: 450px;
+    min-height: 500px;
 }
 .jumbotron-text{
     position: absolute;
@@ -251,7 +241,7 @@ nav .footer-nav li,nav .social-media{
     align-self: center;
     justify-self: center; */
     margin-left:10%;
-    margin-top:5%;
+    margin-top:10%;
 
     color:var(--our-white);
 
@@ -274,18 +264,6 @@ nav .footer-nav li,nav .social-media{
 }
 
 
-.btn-yellow.jumbo{
-
-    padding: 7px 40px;
-    margin-right: 10px;
-    font-family: 'Inder', sans-serif;
-    font-weight: 400;
-    font-size: 20px;
-    
-
-}
-
-
 .btn-outeryellow.jumbo{
 
     padding: 7px 40px;
@@ -301,34 +279,36 @@ nav .footer-nav li,nav .social-media{
 
 /* ---Container-2 */
 .container-2{
-    display: flex;
-    flex-flow: column;
-    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    color: var(--our-white);
+    margin-right: 3%;
+    margin-top: -6%;
+
+}
+.container-2-first-part{
+    padding-left: 10%;
+    padding-top: 4%;
+    margin-left: 4%;
+    background-color: var(--our-red);
+}
+.container-2-first-part p{
+    font-family:'Istok Web', sans-serif;
+    font-size: 35px;
 }
 
-.container-2 p{
-    font-family: 'Inter', sans-serif;
-    font-style: italic;
+.container-2-first-part h5{
+    font-family: 'Inria Sans', sans-serif;
+    font-size: 24px;
     font-weight: 300;
-    font-size: 45px;
-    line-height: 54px;
-    text-align: center;
-    color:var(--our-black);
+    margin-bottom: 7%;
+
+}
+.container-2-museum-address{
+    background-color: var(--our-grey);
 }
 
-.container-2 p span{
-    font-weight: 500;
-}
-.container-2-images{
-    display: flex;
-    margin: 5% 30% 10%;
-    justify-content: space-between;
-    text-align: center;
-}
-
-.container-2-images h5{
-    margin-top: 20px;
-}
+/* End of container-2 */
 
 /* ---Container -3  */
 .container-3{
