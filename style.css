@@ -230,6 +230,10 @@ nav ul li a:hover{
     text-decoration: none;
  }
 
+ .social-media li a{
+    font-size: 14px;
+ }
+
  /* End of footer navmenu */
 
 
@@ -517,6 +521,44 @@ footer{
 }
 /* --end of footer section */
 
+/* 
+#
+#
+#    
+#     VISIT PAGE
+#
+#
+*/
+
+.visit-jumbotron-image{
+    background-image: url("images/visit/visit.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    min-height: 500px;
+    
+}
+
+/* End of visit page */
+
+/* 
+#
+#
+#    
+#     EVENTS PAGE
+#
+#
+*/
+
+.events-jumbotron-image{
+    background-image: url("images/events/events.JPG");
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    min-height: 500px;
+    
+}
+/* End of visit page */
 /*
 #
 #
@@ -531,20 +573,12 @@ footer{
 
 /* about jumbotron */
 
-.about-jumbotron
-{
-    display: grid;
-    grid-template-columns: 2fr 0.5fr;
-    border: 1px solid var(--our-black);
-}
-
 .about-jumbotron-image{
     background-image: url("images/about/about.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
-    max-width: 90%;
-    min-height: 450px;
-    clip-path: polygon(0 0, 100% 0%, 60% 100%, 0% 100%);
+    background-size: cover; 
+    max-width: 100%;
+    min-height: 500px;
 }
 /* end of about jumbotron */
 
@@ -578,6 +612,15 @@ footer{
 *
 *
  */
+
+ .contact-jumbotron-image{
+    background-image: url("images/contact/contact.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    min-height: 500px;
+    
+}
 
  .contact-container-1, .contact-container-2{
     display: inline-grid;
