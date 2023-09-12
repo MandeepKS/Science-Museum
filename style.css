@@ -686,6 +686,70 @@ footer{
 
 
 
+/* 
+#
+#
+#
+# BIO TECHNOLOGY PAGE
+#
+#
+#
+*/
+
+.biotechnology-jumbotron-image{
+    background-image: url("images/biotechnology/biotechnology.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    min-height: 500px; 
+}
+
+/* end of bio technology page */
+
+
+
+/* 
+#
+#
+#
+# SPACE & AVIATION PAGE
+#
+#
+#
+*/
+
+.space-aviation-jumbotron-image{
+    background-image: url("images/space_aviation/space_aviation.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    min-height: 500px; 
+}
+
+/* end of space & aviation page */
+
+
+/* 
+#
+#
+#
+# LASER THEATRE PAGE
+#
+#
+#
+*/
+
+.laser_theatre-jumbotron-image{
+    background-image: url("images/laser_theatre/laser_theatre.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    min-height: 500px; 
+}
+
+/* end of laser theatre page */
+
+
 
 
 
