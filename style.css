@@ -14,9 +14,10 @@ font-family: 'Istok Web', sans-serif;
 :root{
     --our-black : #000000;
     --our-red : #EC2020;
+    --our-light-red-background : #FFEDED;
     --our-grey : #A2A2A2;
     --font-dark-grey:#BEB9AF;
-    --background-grey: #EEEEEE;
+    --our-background-grey: #F3F3F3;
     --font-about-grey:#9D9B9B;
     --our-white :#FFFF;
 }
@@ -538,6 +539,79 @@ footer{
     min-height: 500px;
     
 }
+  /* First visit page  museum admission container */
+.visit-container{
+    margin: 3%;
+}
+
+.visit-card{
+    display: flex;
+    flex-direction: row;
+}
+
+.visit-sub-container{
+    background-color: var(--our-background-grey);
+   
+}
+
+.visit-sub-container h3{
+    text-align: center;
+}
+
+.container-3-text-content{
+    margin: 4% -3% 4% 4%;
+    z-index: 10;
+    padding : 3% 2% 0 2%;
+}
+ 
+/*  Accessibility-container  */
+.accessibility-card{
+    display: flex;
+    flex-direction: row;
+    margin: 3%;
+}
+.accessibility-container{
+    margin: 0%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background:var(--our-light-red-background);
+}
+
+.accessibility-text-content{
+   margin-left: -8%;
+   margin-top: 4%;
+   margin-bottom: 4%;
+   z-index: 20;
+   padding: 3%;
+}
+
+.accessibility-text-content p{
+    font-size: 30px;
+    font-weight: 700;
+}
+/* end of accessibility container */
+
+
+/* Food & drink container */
+
+ .food-container{
+   display: flex;
+   flex-direction: row;
+   padding-top: 5%;
+ }
+ .food-drink-text-content{
+    margin: 4% -5% 4% 0;
+    z-index: 15;
+    padding : 3%;
+ }
+
+ .food-drink-text-content p{
+    font-size: 20px;
+ }
+
+
+
+ /* end of food & drink container */
 
 /* End of visit page */
 
@@ -557,6 +631,11 @@ footer{
     max-width: 100%;
     min-height: 500px;
     
+}
+
+.event-text p {
+    font-size: 23px;
+    font-weight: 400;
 }
 /* End of visit page */
 /*
