@@ -830,15 +830,16 @@ footer{
 }
 
 
-.biotechnology-card-4{
+.gallery-card{
    display: flex;
    flex-direction: row;
-   gap: 1rem;
-   margin-top: 15%;
+   gap: 2rem;
+   margin-top: 10%;
    margin-bottom: 10%;
+   padding: 5%;
    
 }
-.biotechnology-card-4 img{
+.gallery-card img{
     max-height: auto;
 	max-width: 100%;
     object-fit: cover;
