@@ -820,6 +820,30 @@ footer{
     min-height: 500px; 
 }
 
+.biotechnology-text h3{
+    margin-top: 12%;
+}
+
+.biotechnology-text p{
+    margin-top: 10%;
+    font-size: 25px;
+}
+
+
+.biotechnology-card-4{
+   display: flex;
+   flex-direction: row;
+   gap: 1rem;
+   margin-top: 15%;
+   margin-bottom: 10%;
+   
+}
+.biotechnology-card-4 img{
+    max-height: auto;
+	max-width: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
 /* end of bio technology page */
 
 
