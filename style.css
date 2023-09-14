@@ -81,12 +81,12 @@ body{
 .btn-outeryellow{
     color: var(--our-black);
     text-decoration: none;
-    border: 1px solid var(--our-yellow);
+    border: 1px solid var(--our-red);
     transition: all 0.4s;
 }
 
 .btn-outeryellow:hover{
-   background-color: var(--our-yellow);
+   background-color: var(--our-red);
 }
 
 .btn-black{
@@ -379,9 +379,9 @@ nav ul li a:hover{
     margin-top: 10px;
     color: var(--our-black);
 }
-.feature-products-card:hover{
-    border:2px solid var(--our-yellow);
-}
+/* .feature-products-card:hover{
+    border:2px solid var(--our-red);
+} */
 
 .btn-red.cart{
     padding: 10px 40px;
@@ -395,7 +395,7 @@ nav ul li a:hover{
 
 /* ----Container-4--- */
 .things-to-explore-container-4{
-    background: linear-gradient(#FFEDED,#DCD6D6);
+    background: linear-gradient(#FFEDED,#DCD6D6,#ffff);
 }
 .container-4{
 
@@ -446,36 +446,26 @@ nav ul li a:hover{
 /* Container-5 */
 .container-5{
     display: grid;
-    grid-template-columns: 1fr 2fr; 
-    align-items: center;
+    grid-template-columns: 1fr 2fr;
     gap: 1em;
     margin:8% 3% 5% 3%;
-
+    text-align: left;
     
 }
 
 .support-your-museum{
-grid-column: 1/-1;
-}
-
-.container-5 h4{
-    margin: 37px 0 18px 0;
-
-    font-style: normal;
-    font-weight: 700;
+    grid-column: 1/-1;
     font-size: 30px;
-    line-height: 36px;
-    text-align: center;
+    font-weight: 700;
+    color: var(--our-red);
 }
 
-.container-5 p{
-    font-style: normal;
-    font-weight: 400;
-    font-size: 22px;
-    line-height: 26px;
-    text-align: center;
+.support-your-museum-content img{
+    max-height: 500px;
+    max-width: 100%;
+    object-fit:fill;
+    flex-basis: 500px;
 }
-
 
 
 /* end of container-5 */
