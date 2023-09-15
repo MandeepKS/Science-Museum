@@ -383,6 +383,10 @@ nav ul li a:hover{
     border:2px solid var(--our-red);
 } */
 
+.explore-card:hover{
+    border: 2px solid var(--our-red);
+
+}
 .btn-red.cart{
     padding: 10px 40px;
     margin-top: 10px;
@@ -422,7 +426,7 @@ nav ul li a:hover{
 .container-4 h4{
    margin: 5% 0 1% 0;
    font-weight: 700;
-   font-size: 23px;
+   font-size: 17px;
 
 }
 
@@ -430,7 +434,7 @@ nav ul li a:hover{
 .container-4 p{
     margin:1% 0 6% 0;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 15px;
 
 }
 
