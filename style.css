@@ -78,14 +78,14 @@ body{
     color: var(--our-red);
 }
 
-.btn-outeryellow{
+.btn-outerred{
     color: var(--our-black);
     text-decoration: none;
     border: 1px solid var(--our-red);
     transition: all 0.4s;
 }
 
-.btn-outeryellow:hover{
+.btn-outerred:hover{
    background-color: var(--our-red);
 }
 
@@ -240,7 +240,7 @@ nav ul li a:hover{
 
 
 
-/* Main body starts with jumbortron */
+/* Main starts with jumbortron */
 
 .jumbotron
 {
@@ -260,14 +260,10 @@ nav ul li a:hover{
 }
 .jumbotron-text{
     position: absolute;
-    /* display: flex; */
-    /* flex-direction: column;
-    align-self: center;
-    justify-self: center; */
     margin-left:10%;
     margin-top:10%;
-
     color:var(--our-white);
+
 
 
 }
@@ -275,7 +271,6 @@ nav ul li a:hover{
 .jumbotron-text h1{
    font-family:'Istok Web', sans-serif;
    font-size: 40px;
-   /* text-align: right; */
    align-items: center;
 }
 
@@ -286,17 +281,6 @@ nav ul li a:hover{
     margin-bottom: 15px;
 
 }
-
-
-.btn-outeryellow.jumbo{
-
-    padding: 7px 40px;
-    font-family: 'Inder', sans-serif;
-    font-weight: 400;
-    font-size: 20px;
-    color: var(--our-black);
-}
-
 
 /* -----------end of jumbotron */
 
@@ -389,11 +373,12 @@ nav ul li a:hover{
 }
 .btn-red.cart{
     padding: 10px 40px;
-    margin-top: 10px;
-    margin-right: 80%;
+    margin-top:10px;
+    margin-right:70%;
     font-weight: bold;
     font-size: 15px;
     line-height: 16px;
+    text-align: center;
 }
 /* ---end of container -3  */
 
@@ -887,187 +872,6 @@ footer{
 
 
 
-
-
-/*
-*
-*
-* ######## PRODUCT DETAIL PAGE ######
-*
-*
- */
-
- .productdetail-container-1{
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    height: auto;
-    gap: 3%;
-
-
-
-}
-
- .prodt-price{
-    font-size: 15px;
-    margin-bottom: 1%;
- }
-
- .prodt-tax-detail{
-    font-size: 10px;
-    font-weight: 400;
-    margin-bottom: 2%;
- }
-
- .prodt-desc{
-    font-size: 15px;
-    font-weight: 300;
-    margin-right: 2%;
-    margin-bottom: 3%;
-    padding-right: 5%;
- }
- .prodt-detail img{
-   
-    max-width: 100%;
-    max-height: auto;
-    object-fit: cover;
-    
- }
-
-
- .prodt-size{
-    display: flex;
-}
-
-.prodt-size a{
-    text-decoration: none;
-    margin: 2% 2% 3% 0;
-    padding: 1%;
-    color: var(--our-black);
-    border: 1px solid var(--our-black);
- }
-
- .prodt-size a:hover ,li:hover{
-
-    color: var(--our-yellow);
- }
-
- /* Product Add to cart button */
-
- .product-btn{
-    padding: 1% 11%;
- }
-
- /* ### End of Product Detail Page ##### */
-
-
-
-
-
-/*
-#
-#
-#
-########## CHECKOUT PAGE ##############
-#
-#
-#
-# */
-
-.checkout-title-container-1{
-    text-align: center;
-    margin-bottom: 5%;
-}
-
-.checkout-container-2{
-    display: flex;
-    gap:3%;
-}
-
-.section-1{
-    width:40%;
-}
-.section-1 p{
-    margin-bottom: 2%;
-}
-.section-1 input{
-    width: 100%;
-    margin-bottom: 3%;
-    padding: 1%;
-}
-/* ## Image order preview title ## */
-.order-preview img{
-    /* height: auto;
-    width: auto; */
-    max-width: 90%;
-    max-height: 200px;
-
-    margin-left: 3%;
-}
-.section-3{
-    width:50%;
-}
-.section-3,.section-2{
-    margin-top: 5%;
-}
-
-.checkout-prodt-price{
-    margin-top: 5%;
-}
-
-.checkout-prodt-shipping,.checkout-prodt-total-price,.checkout-button{
-    margin-left: 50%;
-}
-
-.checkout-prodt-total-price{
-    margin-bottom: 3%;
-}
-.checkout-button{
-    padding: 1%;
-}
-
-.shipping-free,.price-in-krone{
-   margin-left: 15%;
-}
-
-.credit-debit-card{
-    margin: 2% 0 3% 10%;
-
-}
-.credit-card-pay{
-    padding: 2% 10%;
-    font-size: 18px;
-    font-weight: 700;
-
-}
-
-.checkout-prodt-size,.checkout-prodt-color,.checkout-prodt-quantity,.checkout-section1-subtitle{
-    font-weight: 300;
-    font-size: 15px;
-}
- /* ### End of CHECK-OUT Page ##### */
-
-
-
-
-/* 
-#######################################
-#                                     #
-#                                     #
-#   #### PAYMENT SUCESSFULL #######   #
-#  #                               #  #
-# #                                 # #
-#######################################
- */
-
- .paymentsucessfull{
-    display: grid;
-    grid-template-columns: 2fr;
-    margin-top: 15%;
-    background-color: var(--our-grey);
-    
-}
-
-
 /* Responsiveness Table and desktop */
 
 
@@ -1075,9 +879,7 @@ footer{
 @media only screen and (max-width:900px){
 
      /* Jumbotron section */
-
-
-
+     
      .jumbotron-text h1{
          font-size: 35px;
       }
@@ -1089,34 +891,36 @@ footer{
 
      }
 
-      .btn-yellow.jumbo{
+   /* End of jumbotron section */
 
-         padding: 7px 30px;
-         margin-right: 10px;
-         font-weight: 400;
-         font-size: 15px;
+   /* container-2 index page */
 
-     }
+    .container-2-museum-address h5{
+        margin-top:6%;
+        font-size: 20px;
+    }
 
-     .btn-outeryellow.jumbo{
+   /* end of container -2 index page */
 
-         padding: 7px 30px;
-         font-weight: 400;
-         font-size: 15px;
-     }
+   /* container-4 */
+   .container-4 a{
+    padding:2%;
+    margin: 3% 20% 10% 20%;
+   }
 
-     /* End of jumbotron section */
 
-    /* Container-2 */
-     .container-2-images{
-        flex-direction: column;
+   .container-4 p{
+    margin: 0;
+    font-size: 13px;
+   }
+   /* end of container-4 */
 
-     }
+   /* container-5 index page */
 
-     .container-2-images h5{
-         margin: 10px 0 30px 0;
-     }
-    /* end of container -2  */
+     .container-5{
+       grid-template-columns: repeat(2,1fr);
+    }
+   /* end of container-5  */
 
     /* ############///////////
     #
@@ -1145,24 +949,6 @@ footer{
     /* ####End of contact page */
 
 
-
-
-    /*######
-    ###
-    ###
-    ### Check-Out.html page 
-    ##
-    #
-    # */
-
-    .checkout-prodt-shipping,.checkout-prodt-total-price,.checkout-button{
-        margin-left: 0;
-    }
-   
-    /* ##### END OF CHECKOUT PAGE ##### */
-
-
-
 }
 
 /*
@@ -1175,8 +961,6 @@ footer{
 
     .main-container{
         width:100%;
-
-
      }
     
 
@@ -1188,17 +972,26 @@ footer{
      /* Mobile navbar enabled */
      
     .hamburger-open{
-        display: inline;
+        display:inline;
         cursor: pointer;
         z-index: 20;
+        color: var(--our-white);
+        margin-left:2%;
+        margin-top: 1%;
+        font-size: 13px;
      }
      
     #menu-checkbox:checked ~ #mobile-nav{
        display: flex;
        z-index: 10;
-       
+      
     }
-
+    
+    .nav-logo-science{
+        padding-top:10px;
+        font-size: 18px;
+        margin-right: 3%;
+    }
      /* end of mobile navbar */
 
 
