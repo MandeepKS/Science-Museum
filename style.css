@@ -67,6 +67,7 @@ body{
     text-decoration: none;
     background-color: var(--our-red);
     border: 1px solid var(--our-red);
+    border-radius: 5px;
     transition: all 0.4s;
 
 }
@@ -363,16 +364,14 @@ nav ul li a:hover{
     margin-top: 10px;
     color: var(--our-black);
 }
-/* .feature-products-card:hover{
-    border:2px solid var(--our-red);
-} */
 
-.explore-card:hover{
+
+/* .explore-card:hover{
     border: 2px solid var(--our-red);
 
-}
+} */
 .btn-red.cart{
-    padding: 10px 40px;
+    padding: 10px 20px;
     margin-top:10px;
     margin-right:70%;
     font-weight: bold;
@@ -920,6 +919,11 @@ footer{
      .container-5{
        grid-template-columns: repeat(2,1fr);
     }
+
+    .support-your-museum-content img{
+        max-height: 400px;
+        
+    }
    /* end of container-5  */
 
     /* ############///////////
@@ -989,6 +993,7 @@ footer{
     
     .nav-logo-science{
         padding-top:10px;
+        padding-bottom: 2%;
         font-size: 18px;
         margin-right: 3%;
     }
@@ -1002,7 +1007,7 @@ footer{
        {
            display: flex;
            flex-direction: column;
-
+           max-height: 350px;
        }
 
        /* Tablet size image for home page jumbotron */
@@ -1016,61 +1021,69 @@ footer{
        }
 
        .jumbotron-text{
-        margin-top: 20%;
+        margin-top: 15%;
         color: white;
        }
 
-       .btn-outeryellow.jumbo{
-        color: white;
-       }
+       
     /* ----Container-2-----  */
-
-     .container-2 p{
-        font-size: 35px;
-        line-height: 44px;
+     .container-2{
+        margin-top: 0;
+        display: flex;
+        flex-direction: column;
      }
+    .container-2-first-part h1{
+        font-size: 22px;
+    }
+
+    .container-2-first-part h5{
+        font-size: 15px;
+        padding-top:2% ;
+    }
+
+    .container-2-museum-address{
+        margin-left: 4%;
+        margin-top: 0;
+        padding-top: 5%;
+    }
+
+    .container-2-museum-address h5{
+        margin-top: 0;
+        margin-bottom: 5%;
+    }
 
     /* --end of container-2 --- */
 
+
+
     /* -----Container-4--  */
+    
+    .things-to-explore-container-4{
+        background: var(--our-background-grey);
+    }
     .container-4{
-        background-image: url("tablet-images/home/Container_5_background.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-
+        display: flex;
+        flex-direction: column;
+        margin-left:25%;
+        margin-right: 25%;
+        margin-bottom: 5%;
+        
     }
-
-    .container-4 h4{
-        font-size: 30px;
-    }
-
-    .container-4 h5{
-        font-size: 13px;
-    }
-    .container-4 p{
-       font-size: 20px;
+     
+   
+    .explore-card img{
+        max-height: 300px;
+        object-fit:fill;
+        border-radius: 10px;
     }
     /* ---end of container-4-- */
 
     /* ---Container-5 ----- */
 
-    .container-5 h4{
-     font-size: 25px;
-     line-height: 30px;
+    .support-your-museum-content img{
+        max-height: 300px;
     }
 
-    .container-5 p{
-        font-size: 20px;
-        line-height: 24px;
-    }
-
-    .container-5 input{
-        width: 50%;
-    }
-
-    .btn-black.cont-5{
-        padding: 18px 20%;
-    }
     /* ---End of container-5 ---- */
 
     /* ----footer--- */
@@ -1138,14 +1151,6 @@ footer{
    /* ### end of checkout page #### */
 
 
-   /* ### PAYMENT SUCESSFULL PAGE */
- 
-   .paymentsucessfull-txt{
-    color: var(--our-black);
-}
-   /* ### END OF PAYMENT SUCESSFULL PAGE */
-
-
 }
 
 
@@ -1162,76 +1167,51 @@ footer{
 
      .main-container{
         width:100%;
-        padding-left: 5px;
-        padding-right: 5px;
         margin-right: auto;
         margin-left: auto;
      }
 
    nav .nav-mobile{
-    margin-top: 13%;
+    margin-top: -5%;
    }
    
-   nav .social-media li a{
-    font-size: 15px;
-   }
-   
+  .nav-logo-science{
+    display: none;
+  }  
+ 
+ /* footer navbar */
+  .footer-nav{
+    display: none;
+  }
+  
+  .social-media{
+    padding-left: 15%;
+  }
+ /* end of footer navbar */
+ 
   /* Jumbotron section */
-
-  .jumbotron{
-      display: flex;
-      flex-direction: column;
-      /* align-items: center; */
-      justify-content: center;
-      background-color: transparent;
-
-   }
-
-
 .jumbotron-image{
     object-fit: cover;
-    background-image: linear-gradient(
-      to right,
-      hsl(0deg 0% 0% / 70%),
-      transparent 50%
-  ),url("mobile-images/home/home.jpg");
-    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
+    background-image: url("mobile-images/home/home.jpg");
+    min-height: 450px;
+    margin-top: -10%;
 }
   .jumbotron-text h1{
+      margin-top: 15%;
       font-size: 25px;
      }
 
    .jumbotron-text h3{
 
     font-size: 16px;
-    margin-bottom: 18px;
-
-  }
-
-   .btn-yellow.jumbo{
-
-      padding: 7px 25px;
-      margin-right: 10px;
-      margin-bottom: 40px;
-      font-weight: 400;
-      font-size: 12px;
-
-  }
-
-  .btn-outeryellow.jumbo{
-
-      padding: 7px 25px;
-      font-weight: 400;
-      font-size: 12px;
-
-  }
+}
 
   /* End of jumbotron section */
 
 
   /* ---container-2 --- */
    .container-2{
-    margin-top: 50px;
+    margin-top: -5%;
    }
   .container-2 p{
     font-size: 25px;
@@ -1249,53 +1229,32 @@ footer{
 
 
    /* -----Container-4--  */
-   .container-4{
-    background-image: url("mobile-images/home/Container_5_background.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+   
+    .container-4{
+        margin-left:5%;
+        margin-right:5%;
+        
+    }
 
+    .container-4 img{
+        object-fit: cover;
+        object-position: 50% 5%;
+    }
 
-    .container-4 h4{
-     font-size: 25px;
-}
-
-    .container-4 h5{
-     font-size: 10px;
-}
-    .container-4 p{
-      margin:1% 0 6% 0;
-     font-size: 17px;
-}
 /* ---end of container-4-- */
+  
+/* container-5 */
+ .container-5{
+    display: flex;
+    flex-direction: column;
+    padding-left: 5%;
+    padding-right: 5%;
+ }
 
- /* ---Container-5 ----- */
-
- .container-5 h4{
-    font-size: 25px;
-    line-height: 30px;
-   }
-
-   .container-5 p{
-       padding-left: 3%;
-       padding-right: 3%;
-       font-size: 17px;
-       line-height: 20px;
-   }
-
-   .container-5 input{
-
-       width: 65%;
-   }
-
-   .btn-black.cont-5{
-       padding: 18px 25%;
-   }
-
-
-
-   /* ---End of container-5 ---- */
-
+ .container-5 p{
+    font-size: 13px;
+ }
+/* end of container-5 */
    /* ########## About-page ####### */
 
     .about-jumbotron-image{
