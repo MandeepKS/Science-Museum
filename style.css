@@ -517,6 +517,10 @@ footer{
     min-height: 500px;
     
 }
+
+.sub-page-text h1{
+    font-size: 95px;
+}
   /* First visit page  museum admission container */
 .visit-container{
     margin: 3%;
@@ -926,7 +930,51 @@ footer{
     }
    /* end of container-5  */
 
-    /* ############///////////
+
+
+   /* ¤¤¤¤¤¤¤ Visit page ¤¤¤¤¤¤¤*/
+
+    .sub-page-text h1{
+        margin-top: 50%;
+        font-size: 60px;
+    }
+
+     /* container-2 */
+      
+     .visit-card{
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+        gap: 2rem;
+    
+    }
+      .container-3-text-content,.food-drink-text-content{
+        min-width: 350px;
+        margin-left: 0;
+        padding-bottom: 5%;
+      }
+      
+      .visit-image{
+        max-width: 550px;
+        max-height: auto;
+     
+      }
+
+      .visit-container-3-image img{
+         width: 100% ;
+         object-fit: fill;
+         min-height: 100%;
+      }
+      
+       /* end of container-2 */
+
+      
+       /* ¤¤¤¤¤¤¤ end of Visit page ¤¤¤¤¤¤¤*/
+   
+   
+   
+   
+   
+   /* ############///////////
     #
     #
     #
@@ -1078,6 +1126,8 @@ footer{
     }
     /* ---end of container-4-- */
 
+    
+    
     /* ---Container-5 ----- */
 
     .support-your-museum-content img{
@@ -1086,6 +1136,8 @@ footer{
 
     /* ---End of container-5 ---- */
 
+    
+    
     /* ----footer--- */
     .footer-logo{
         display: none;
@@ -1104,7 +1156,36 @@ footer{
       }
      /* end of footer navbar */
 
+     
+     /* ¤¤¤¤¤¤¤¤ VISIT PAGE ¤¤¤¤¤¤¤ */
+     
+     /* container-3 */
+     .container-3-text-content,.food-drink-text-content {
+        min-width: 300px;
+     }
+     .container-3-text-content p{
+        font-size: 12px;
+      }
+      
+      /* container-4 */
+        .accessibility-text-content p{
+            font-size: 25px;
+            min-width: 300px;
+            margin-top: -10%;
+        }
+       
+        .accessibility-image img{
+            width: 100%;
+            object-fit: cover;
+            min-height: 100%;
+        }
+      /* end of container-4 */
 
+      /* container -5  */
+      .food-drink-text-content p{
+        font-size: 15px;
+      }
+     /* ######## end of visit page ##### */
     /* ¤
     ¤
     ¤
