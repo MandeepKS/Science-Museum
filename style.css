@@ -647,6 +647,10 @@ footer{
     max-width: 100%;
     min-height: 500px;
 }
+ .about-jumb-txt h1{
+    font-size: 90px;
+    margin-top: 20%;
+ }
 /* end of about jumbotron */
 
  /* about container-3 */
@@ -993,6 +997,22 @@ footer{
    /* ###### end of events page */
    
    
+   /* ++++++ About page  ++++++ */
+    .about-jumb-txt h1{
+        font-size: 70px;
+    } 
+
+    .about-card p{
+        font-size: 18px;
+        padding-left: 3%;
+        padding-right: 3%;
+      }
+
+   /* ------ End of About-page */
+   
+   
+   
+   
    /* ############///////////
     #
     #
@@ -1018,6 +1038,7 @@ footer{
     }
 
     /* ####End of contact page */
+
 
 
 }
@@ -1222,19 +1243,13 @@ footer{
     ¤
     ¤¤
     ¤¤¤¤ */
-
-    .about-jumbotron{
-        display: flex;
-        flex-direction: column;
-        border: 1px solid white;
+     .about-card h3{
+        margin-top: 8%;
+        font-size: 25px;
+     }
+    .about-card p{
+        font-size: 15px;
     }
-    .about-jumbotron-image{
-        background-image: url("tablet-images/about/about.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        clip-path: none;
-        max-width: 100%;
-   }
 
    /* ############## end of about page ############ */
 
@@ -1424,16 +1439,16 @@ footer{
         background-repeat: no-repeat;
         background-size: cover;
         max-width: 100%;
-        
+    }
 
+   .about-jumb-txt h1{
+     margin-top: 60%;
+     font-size: 40px;
    }
 
-   .about-txt{
-     margin-top: 40%;
-   }
-
-   .about-txt h1{
-    font-size: 30px;
+   .mission-text p{
+    margin-top: -5%;
+    font-size: 15px;
    }
    /* ¤¤¤¤¤¤¤¤ end of about-page */
 
