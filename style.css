@@ -710,31 +710,13 @@ footer{
     min-height: 500px;
     
 }
+
+
+.contact-jumbo-txt h1{
+    font-size: 85px;
+}
   /* contact-form */
- .contact-container-1, .contact-container-2{
-    display: inline-grid;
-    grid-template-columns: 4fr;
-
-}
-
-.contact-container-1{
-    margin: 2% 7% 2% 2%;
-    padding: 2%;
-}
-
-.contact-container-1 p{
-    margin-bottom: 5%;
-    font-size: 15px;
-    font-weight: 300;
-}
-.contact-title{
-    margin-bottom: 5%;
-    font-size: 40px;
-}
-
-.contact-title span{
-    text-decoration: underline;
-}
+ 
 .contact-container-2 input,textarea{
     width: 100%;
     margin-bottom: 5%;
@@ -746,9 +728,7 @@ footer{
 
 }
 
-.contact-container-2{
-    width: 50%;
-}
+
 
 .contact-container-2 input{
     height: 30px;
@@ -756,10 +736,14 @@ footer{
 
 .contact-container-2 input:focus, textarea:focus{
     outline: none;
-    border-bottom: 2px solid var(--our-yellow);
+    border-bottom: 2px solid var(--our-red);
 }
 
-
+.contact-us-form-title{
+    font-size: 25px;
+    margin-bottom: 8%;
+    padding-top: 2%;
+}
 
 /* button in contact form, align */
 .contact-submit{
@@ -1036,7 +1020,14 @@ footer{
         align-items: center;
         width: 100%;
     }
+    
+    .contact-card h3{
+        font-size:25px;
+    }
 
+    .contact-card p{
+        font-size: 20px;
+    }
     /* ####End of contact page */
 
 
