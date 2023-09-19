@@ -1232,7 +1232,10 @@ footer{
         font-size: 15px;
       }
      /* ######## end of visit page ##### */
-    /* ¤
+    
+    
+    
+     /* ¤
     ¤
     ¤
     ¤¤
@@ -1252,24 +1255,19 @@ footer{
 
    /* ############## end of about page ############ */
 
+ /* ----Space aviation page ---- */
+   .space-aviation-jumbotron-image{
+    background-image: linear-gradient(
+        to right,
+        hsl(0deg 0% 0% / 100%),
+        transparent 70%
+    ),url("tablet-images/space_aviation/space.aviation.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+   }
 
-
-  /*######
-    ###
-    ###
-    ### Check-Out.html page 
-    ##
-    #
-    # */
-
-    .checkout-produt-title{
-        font-size: 18px;
-    }
-    
-    .checkout-prodt-price{
-        font-size: 16px;
-    }
-   /* ### end of checkout page #### */
+ /* ---- end of Space aviation page ---- */
 
 
 }
@@ -1476,5 +1474,20 @@ footer{
         font-size: 15px;
     }
     /* end of contact page */
+ 
     
+
+    /* ----- Space-aviation page ----*/
+    .space-aviation-jumbotron-image{
+        background-image: linear-gradient(
+            to right,
+            hsl(0deg 0% 0% / 100%),
+            transparent 70%
+        ),url("mobile-images/space_aviation/space_aviation.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        max-width: 100%;
+       }
+
+    /* ---- end of aviation page ----- */
 }
